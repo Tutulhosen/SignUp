@@ -19,7 +19,7 @@
 			 $email = $_POST['email'];
 			 $cell = $_POST['cell'];
 			 $uname= $_POST['uname'];
-			}
+			
 
 			$mgs='';
 
@@ -28,7 +28,7 @@
 			} else {
 				$mgs= "<p class=\"alert alert-success\">Successfully SignUp <button class=\"close\" data-dismiss=\"alert\">&times</button></p>";
 			}
-			
+		}
 			
 			
 			
